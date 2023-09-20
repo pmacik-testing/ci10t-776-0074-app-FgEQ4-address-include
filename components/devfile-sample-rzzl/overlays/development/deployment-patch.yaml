@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: devfile-sample-rzzl
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/pmacik-testing/ci10t-776-0074-tenant/ci10t-776-0074-app/devfile-sample-rzzl@sha256:90a147cef5c3bd2f02af365552aee6b5f2e95e4c84dcac147dd85d21704847ac
+        name: my-nodejs
+        resources: {}
+status: {}
